@@ -1,0 +1,36 @@
+.step-title h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.step-title p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.step-title span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.step-title a{
+    display: block;
+    margin: 1rem auto;  /* centers horizontally */
+    width: 16rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    background: var(--snd-bg-color);
+    color: var(--bg-color);
+    padding: 0.55rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.step-title a:hover{
+    background: var(--text-color)
+}

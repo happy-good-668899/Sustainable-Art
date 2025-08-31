@@ -1,0 +1,48 @@
+/*HEADER*/
+.subpage{
+    min-height: 20vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.subpage h1{
+    /*position: absolute; !* position relative to .subpage *!*/
+    /*top: 80%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+    /*z-index: 10;*/
+    top: auto;
+    left: auto;
+}
+
+.heading-white{
+    color: var(--bg-color);
+}
+
+.subpage span{
+    color: var(--snd-bg-color);
+    font-weight: 400;
+}
+
+.throwaway{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/throwaway.jpeg);
+}
+
+@media (max-width: 768px){
+    .throwaway{
+        background-size: cover;      /* makes image cover full container */
+        background-repeat: no-repeat; /* prevents tiling */
+        background-position: center; /* keeps it centered when scaling */
+    }
+}
+
+.circular-economy{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../img/upcycling2.jpeg);
+    background-size: cover;      /* makes image cover full container */
+    background-repeat: no-repeat; /* prevents tiling */
+    background-position: center; /* keeps it centered when scaling */
+}
+
